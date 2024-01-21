@@ -1,0 +1,39 @@
+.contact{
+    height: 100%;  
+    margin: 12px auto;  
+    position: relative;
+    overflow: hidden;
+}
+.contact::after{
+    content: "";
+    height: inherit;
+    width: 100%;
+    background-image: url("../img/11.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    opacity: 0.35;
+    top: 0px;
+    z-index: -1;
+}
+.contact-form{
+    width: 80vw;
+}
+.form-box input, textarea{
+    border: 2px solid rgb(200 207 214);
+    padding: 8px 10px;
+    width: 61vw;
+    margin: 12px;
+    border-radius: 12px;
+  
+}
+.form-btn{
+    padding: 7px 11px;
+    width: 9vw;
+    margin: 12px;
+    border-radius: 6px;
+}
+.form-btn:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

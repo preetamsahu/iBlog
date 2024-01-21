@@ -1,0 +1,123 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: var(--font1)
+}
+.navigation{
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 11px auto;
+}
+
+.nav-left{
+    display: flex;
+}
+.logo{
+    width: 66px;
+}
+.nav-left ul{
+    display: flex;
+    padding: 0px 2vw;
+    align-items: center;
+}
+.nav-left ul li{
+    list-style: none;
+    padding: 0px 1.3vw;
+}
+.nav-left ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+.content{
+    height: 100%;  
+    display: flex;
+    margin: 12px auto;
+    align-items: center ;
+    position: relative;
+    
+}
+.content::after{
+    content: "";
+    height: inherit;
+    width: 100%;
+    background-image: url("../img/11.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.25;
+    
+}
+.content-para{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 12px;
+}
+.content-para-heading{
+    margin: 20px 0px;
+    
+}
+.content-img> img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.home-articles{
+    padding-top: 12px;
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+}
+.year-box{
+    position: absolute;
+    right: 43px;
+    z-index: 2;
+    top: 24px;
+}
+.year{
+    padding: 12px;
+}
+.home-article{
+    transition: all 0.2s ease;
+    display: flex;
+    padding: 40px;
+}
+.home-article:hover{
+    background-color: rgb(232, 218, 246);
+    cursor: pointer;
+    border-radius: 16px;
+    transform: scale(1.01);
+}
+.home-article-content{
+    align-self: center;
+    margin: 0px 22px;
+}
+.home-article-content> h3,span,div{
+    padding: 6px;
+}
+.home-article img{
+    border-radius: 16px;
+    width: 300px;
+}
+
+
+.footer{
+    height: 40px;
+    background-color: #919ff5;
+    position: sticky;
+    bottom: 0px;
+}
+.footer-content{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 800;
+}

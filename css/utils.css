@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Salsa&display=swap');
+:root{
+    --main-bg-color:rgb(53, 27, 37);
+    --font1:'Roboto Slab', serif;
+}
+.max-width-1{
+    width: 80vw;
+}
+.max-width-2{
+    width: 60vw;
+}
+.m-auto{
+    margin: auto;
+}
+.form-input{
+    border: 1px solid black;
+    padding: 2px 2px;
+    margin: 0px 3px;
+    margin-right: 12px;
+    border-radius: 5px; 
+}
+.btn{
+    border: 1.7px solid black;
+    padding: 2px 2px;
+    margin: 0px 3px;
+    border-radius: 5%;
+
+}
+.line{
+    border: 1px solid rgb(236, 222, 222);
+    margin-top: 28px;
+
+}
+
